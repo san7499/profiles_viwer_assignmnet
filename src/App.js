@@ -6,7 +6,7 @@ import AdminPanel from './components/AdminPanel';
 import ProfileDetails from './components/ProfileDetails';
 import './App.css';
 
-const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY || 'AIzaSyCZTSITgWLrMrZn2pgV8vzgihGEHYT6H0M';
+const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
 const defaultProfiles = [
   {
